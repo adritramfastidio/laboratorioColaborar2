@@ -2,6 +2,6 @@ public class Programacion {
     public static void main(String[] args) {
         System.out.println("Práctica git 4 Adrián y Dylan.");
         //sa
-        System.out.println("Hola67");
+        System.out.println("Hola41");
     }
 }
