@@ -9,7 +9,7 @@ public class Programacion {
             menu();
             opc = sc.nextInt();
             switch (opc) {
-                case 1 -> System.out.println("Placeholder");
+                case 1 -> restarNumeros();
                 case 2 -> System.out.println("Placeholder");
                 case 3 -> System.out.println("Hasta luego.");
                 default -> System.out.println("Opción no válida.");
@@ -22,5 +22,15 @@ public class Programacion {
         System.out.println("2. Place holder");
         System.out.println("3. Salir.");
         System.out.println("Que quieres hacer?");
+    }
+
+    public static void restarNumeros() {
+        System.out.print("Introduce un número");
+        double n1 = sc.nextDouble();
+        System.out.print("Introduce otro número");
+        double n2 = sc.nextDouble();
+
+        double resta = n1 - n2;
+        System.out.println("Su resta es " + resta);
     }
 }
